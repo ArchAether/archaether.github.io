@@ -13,6 +13,7 @@ export default function SpeedTier() {
 
     return (
         <div id="SpeedTierDiv">
+            <h1>Welcome to the Pokemon Battle Companion!</h1>
             {/* for each speed tier in pokeData, get a row*/}
         </div>
     )
