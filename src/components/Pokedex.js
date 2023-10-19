@@ -1,4 +1,4 @@
-export default pokedex = [
+export let pokedex = [
     {
       "dexNumber": 1,
       "name": "bulbasaur",
