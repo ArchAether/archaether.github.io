@@ -4,14 +4,16 @@ import { BrowserRouter, Route, Routes} from 'react-router-dom'
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css'
 
 import SpeedTier from './components/SpeedTier';
-
+import TextCenter from './components/TextCenter';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
       <Route path='/' element = {<SpeedTier />} />
+      <Route path='TextCenter' element={<TextCenter />}/>
     </Routes>
   </BrowserRouter>
 

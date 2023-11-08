@@ -1,0 +1,36 @@
+#SpeedTierDiv{
+    justify-content: center;
+}
+
+.pkmnCard{
+    border-style: outset;
+    border-width: 4px;
+    border-radius: 10px;
+    max-width: 50vw;
+}
+.stat-bar{
+    overflow: visible;
+    background-color: var(--stat);
+    width: var(--bar-value);
+    border-radius: 5px;
+    padding: 1px;
+    margin: 1px;
+}
+.stat-bar h5{
+    padding-left: .1em;
+}
+
+.pkmnSprite{
+    border-style: outset;
+    border-color:honeydew;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#poke-list{
+    max-height: 85vh;
+}
+
+#select-pokemon-stats{
+    text-align: left;
+}
