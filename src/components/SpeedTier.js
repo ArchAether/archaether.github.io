@@ -44,7 +44,7 @@ export default function SpeedTier() {
             <div className="container" id={pokemon.name}>
                 <div className="row pkmnCard">
                     <div className="col">
-                        <span className="speed d-flex align-items-center justify-content-center" style={{width: "100px", height: "100px"}}><h3>{pokemon.speed}</h3></span>
+                        <span className="speed d-flex align-items-center justify-content-center" style={{width: "100px", height: "100px"}}><h3>Speed: {pokemon.speed}</h3></span>
                     </div>
                     <div className="col">
                         <img className="pkmnSprite" src={pokemon.sprite} alt={pokemon.name} />
@@ -95,8 +95,8 @@ export default function SpeedTier() {
                     <div className="stat-bar" style={{"--stat": barColor(pokemon.hp), "--bar-value": pokemon.hp/2 + "%"}}><h5>HP: {pokemon.hp}</h5></div>
                     <div className="stat-bar" style={{"--stat": barColor(pokemon.attack),"--bar-value": pokemon.attack/2 + "%"}}><h5>Attack: {pokemon.attack}</h5></div>
                     <div className="stat-bar" style={{"--stat": barColor(pokemon.defense), "--bar-value": pokemon.defense/2 + "%"}}><h5>Defense: {pokemon.defense}</h5></div>
-                    <div className="stat-bar" style={{"--stat": barColor(pokemon.sAttack),"--bar-value": pokemon.sAttack/2 + "%"}}><h5>Special Attack: {pokemon.sAttack}</h5></div>
-                    <div className="stat-bar" style={{"--stat": barColor(pokemon.sDefense),"--bar-value": pokemon.sDefense/2 + "%"}}><h5>Special Defense: {pokemon.sDefense}</h5></div>
+                    <div className="stat-bar" style={{"--stat": barColor(pokemon.sAttack),"--bar-value": pokemon.sAttack/2 + "%"}}><h5>Sp. Atk: {pokemon.sAttack}</h5></div>
+                    <div className="stat-bar" style={{"--stat": barColor(pokemon.sDefense),"--bar-value": pokemon.sDefense/2 + "%"}}><h5>Sp. Def: {pokemon.sDefense}</h5></div>
                     <div className="stat-bar" style={{"--stat": barColor(pokemon.speed),"--bar-value": pokemon.speed/2 + "%"}}><h5>Speed: {pokemon.speed}</h5></div>
                 </div>
             </div>
@@ -105,7 +105,6 @@ export default function SpeedTier() {
 
     return (
         <div className="container text-center" id="SpeedTierDiv">
-            <h1>Welcome to the Pokemon Battle Companion</h1>
             <div className="row">
                 <div className="col overflow-auto">
                     <div>

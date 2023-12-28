@@ -3,10 +3,12 @@
 }
 
 .pkmnCard{
-    border-style: outset;
+    border-style: solid;
+    border-color: black;
     border-width: 4px;
     border-radius: 10px;
     max-width: 50vw;
+    cursor: pointer;
 }
 .stat-bar{
     overflow: visible;
@@ -18,11 +20,10 @@
 }
 .stat-bar h5{
     padding-left: .1em;
+    color: black;
 }
 
 .pkmnSprite{
-    border-style: outset;
-    border-color:honeydew;
     max-width: 100px;
     max-height: 100px;
 }
